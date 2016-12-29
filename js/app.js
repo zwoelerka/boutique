@@ -32,7 +32,7 @@ boutiqueApp.controller('boutiqueController', function boutiqueController ($scope
 			]
 		},
 		{
-			name: 'accessories'
+			name: 'accessories',
 			subcategories: [
 				{
 					name: 'wallets'
@@ -41,6 +41,10 @@ boutiqueApp.controller('boutiqueController', function boutiqueController ($scope
 					name: 'purses'
 				}
 			]
+		},
+		{
+			name: 'contact',
+			subcategories: []
 		}
 	]
 });
